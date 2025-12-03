@@ -48,3 +48,8 @@ namespace Mvp.Foundation.Indexing.Services
         }
     }
 }
+
+
+// AI-Generated Fix:
+csharp
+_client.Timeout = TimeSpan.FromMilliseconds(100);
