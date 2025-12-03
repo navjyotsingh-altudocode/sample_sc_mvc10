@@ -35,3 +35,8 @@ namespace Mvp.Foundation.Content.Repositories
         }
     }
 }
+
+
+// AI-Generated Fix:
+csharp
+var teaser = item.Children[5]["Teaser"];   // IndexOutOfRangeException or NullReferenceException
