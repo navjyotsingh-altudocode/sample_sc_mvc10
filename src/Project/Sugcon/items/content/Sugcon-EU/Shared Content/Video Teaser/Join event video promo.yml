@@ -1,0 +1,40 @@
+﻿---
+ID: "bd018923-0625-4544-ba16-cc0397713339"
+Parent: "30330c93-f043-4abb-93dd-e20fcb3a46bf"
+Template: "a94acaec-6552-47d1-90b7-f54283868b3f"
+Path: "/sitecore/content/Sugcon-EU/Shared Content/Video Teaser/Join event video promo"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200721T141229Z
+    - ID: "2aaa4a8c-e077-45ec-9439-f151435673d7"
+      Hint: TeaserLink
+      Value: |
+        <link text="Purchase tickets now" linktype="external" url="https://sugcon2022.rentit.hu/" anchor="" target="_blank" />
+    - ID: "87d60910-c481-42a7-8eb6-68e96b0f7cba"
+      Hint: TeaserEmbed
+      Value: |
+        <iframe width="560" height="420" src="https://www.youtube.com/embed/Gja49k612X0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3f3856e2-8d2b-4d34-b574-a3cd83230d24"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sugcon
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220311T082138Z
+    - ID: "efc256c0-d388-4966-9340-a4508104de04"
+      Hint: TeaserTitle
+      Value: Join the largest Sitecore Community event of the year
+    - ID: "f4d03e52-cb74-4aba-8969-3c49e2541ac2"
+      Hint: TeaserText
+      Value: |
+        Purchase your ticket with €500. Sitecore MVPs (2019, 2020, 2021, 2022) will receive 30% discount from the ticket price. <br />
+        You can also sign up for a Certification Exam at a discounted price of €100.<br />
+        The above prices are without the Hungarian VAT.
