@@ -44,3 +44,9 @@ namespace Mvp.Feature.Article.Controllers
         }
     }
 }
+
+
+// AI-Generated Fix:
+csharp
+24:             var repo = (IArticleRepository)_repository;
+27:             var articleItem = repo.GetArticle(new Guid(id));
