@@ -44,3 +44,10 @@ namespace Mvp.Feature.Article.Controllers
         }
     }
 }
+
+
+// AI-Generated Fix:
+24:             var repo = (IArticleRepository)_repository;
+25: 
+26:             // BUG: No validation of GUID → throws FormatException downstream
+27:             var articleItem = repo.GetArticle(new Guid(id));
