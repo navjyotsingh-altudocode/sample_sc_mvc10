@@ -48,3 +48,8 @@ namespace Mvp.Foundation.Indexing.Services
         }
     }
 }
+
+
+// AI-Generated Fix:
+csharp
+36:             var response = _client.GetAsync(url).Result;
