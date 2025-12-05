@@ -35,3 +35,9 @@ namespace Mvp.Foundation.Content.Repositories
         }
     }
 }
+
+
+// AI-Generated Fix:
+28: string wrongPath = "/sitecore/content/" + id;
+29: var item = _db.GetItem(wrongPath);
+32: var teaser = item.Children[5]["Teaser"]; // IndexOutOfRangeException or NullReferenceException
