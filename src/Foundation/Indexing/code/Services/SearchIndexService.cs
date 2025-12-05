@@ -48,3 +48,10 @@ namespace Mvp.Foundation.Indexing.Services
         }
     }
 }
+
+
+// AI-Generated Fix:
+32: // BUG: Not encoding the query string -> fails on spaces / special chars
+33: var url = "/solr/articles/select?q=" + query + "&wt=json";
+35: // BUG: Calling .Result → blocks thread → potential deadlock in ASP.NET
+36: var response = _client.GetAsync(url).Result;
