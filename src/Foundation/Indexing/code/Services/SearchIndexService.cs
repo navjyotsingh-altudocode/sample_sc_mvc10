@@ -48,3 +48,8 @@ namespace Mvp.Foundation.Indexing.Services
         }
     }
 }
+
+
+// AI-Generated Fix:
+32:             // BUG: Not encoding the query string -> fails on spaces / special chars
+33:             var url = "/solr/articles/select?q=" + query + "&wt=json";
